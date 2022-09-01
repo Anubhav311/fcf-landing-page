@@ -23,7 +23,7 @@ export default function Home() {
                 <form action="https://www.getrevue.co/profile/freecashflow/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
                   <div className={styles.inputContainer} >
                     {/* <label for="member_email">Email address</label> */}
-                    <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email" />
+                    <input placeholder="Your email address..." type="email" name="member[email]" id="member_email" />
                   </div>
                   {/* <div class="revue-form-group">
                   <label for="member_first_name">First name <span class="optional">(Optional)</span></label>

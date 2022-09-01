@@ -21,7 +21,7 @@ export default function Home() {
               <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
               <div id="revue-embed">
                 <form action="https://www.getrevue.co/profile/freecashflow/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
-                  <div className={styles.inputContainer} class="revue-form-group">
+                  <div className={styles.inputContainer} >
                     {/* <label for="member_email">Email address</label> */}
                     <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email" />
                   </div>
@@ -33,7 +33,7 @@ export default function Home() {
                   <label for="member_last_name">Last name <span class="optional">(Optional)</span></label>
                   <input class="revue-form-field" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name"/>
                 </div> */}
-                  <div className={styles.buttonContainer} class="revue-form-actions">
+                  <div className={styles.buttonContainer} >
                     <button type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
                       Subscribe
                     </button>

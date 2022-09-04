@@ -1,5 +1,6 @@
 .container {
   /* padding: 0 2rem; */
+  background-color: #F7FAFC;
 }
 
 .main {
@@ -7,8 +8,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: top;
+  align-items: flex-start;
 }
 
 .title a {
@@ -132,24 +133,34 @@
   padding-left: 100px;
 }
 
+.logoContainer {
+  padding: 20px;
+  margin-left: 100px;
+  box-sizing: border-box;
+}
+
 .imageContainer {
-  width: 70%;
+  width: 90%;
 }
 
 .leftContainer {
-  width: 70%;
+  width: 80%;
   margin: auto;
+  margin-left: 150px;
 }
 
 .leftContainer h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+  color: #0b2559;
+  font-family: 'Roboto', sans-serif;
 }
 
 .leftContainer p {
-  font-size: 0.9rem;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 28px;
   color: gray;
   margin-bottom: 30px;
+  word-spacing: 3px;
 }
 
 .inputContainer input {
@@ -166,10 +177,11 @@
 .buttonContainer button {
   width: 130px;
   height: 40px;
-  background-color: #387CFF;
+  background-color: #4586fa;
   border: none;
   border-radius: 5px;
   color: white;
+  box-shadow: 3px 3px 7px 0 grey;
 }
 
 @media (max-width: 600px) {

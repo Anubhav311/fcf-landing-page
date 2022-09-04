@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import image from '../assets/image.png'
+import image from '../assets/image-min.png'
 
 
 export default function Home() {

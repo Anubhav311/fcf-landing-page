@@ -32,7 +32,7 @@ function Index() {
               <p>Free Cash Flow (FCF) will help you in tracking and analyzing your financial data. Further, you will get personalized advice and resources on how you can increase it based on your data. <br />Join the community of Free Cash Flow enthusiasts.</p>
               <div id="revue-embed">
                 <div className={styles.buttonContainer} >
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYqf7Fcz0KZktM_jVSpD5YudYeMahQwYU7kWB_tt9uRM_xVA/viewform?usp=sf_link" target="_blank">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYqf7Fcz0KZktM_jVSpD5YudYeMahQwYU7kWB_tt9uRM_xVA/viewform?usp=sf_link" target="_blank" rel="noreferrer">
                     <button style={{cursor: "pointer"}} name="member[subscribe]" id="member_submit">
                       Subscribe
                     </button>

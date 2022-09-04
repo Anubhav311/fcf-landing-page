@@ -21,7 +21,7 @@ function Index() {
           <Image
             src={logo}
             alt="Logo"
-            width={160}
+            width={180}
             height={40}
           />
         </div>
